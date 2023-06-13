@@ -1,0 +1,5 @@
+/venv
+__pycache__/
+credits.csv
+movies_dataset.csv
+data_procesada.csv
