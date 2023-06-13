@@ -20,6 +20,7 @@ El proceso para responder a esta pregunta es el siguiente:
 
 - Guia respecto al Proceso de Implementacion:
     - Tenemos una data (.csv) que hemos transformado en ETL.ipynb (auxiliar_functions_transformations.py y transformations.py son archivos finales por asi decirlo (mas limpios), en cambio ETL.ipynb es un archivo mas ameno para la visualizacion del proceso). Los resultados de este archivo son: 'data_procesada.csv' (el archivo con las transformaciones particulares sugeridas (por temas de espacio estara alojada en googleDrive)).
+    LINK DEL ARCHIVO --> https://drive.google.com/file/d/1RsMBCJBb_B9wf9AvBVV85-0EY9ErGw2J/view?usp=sharing
     - En el ML.ipynb determinamos que caracteristicas o columnas vamos a considerar para el ML (la implementacion del sistema de recomendacion). El resultado sera un notebook con los analisis realizados para determinar que caracteristicas son las mas utiles + 'data_consultas.csv' (el archivo con lo justo para poder responder a las consultas en la API (funciones 1, 2, 3, 4)) + 'data_ml.csv' (para recomendar).
     - En el main.py hemos implementado la logica de nuestras funciones y la hemos cimentado a partir de la libreria FastAPI de python para su posterior deployment en Render.
 </n>
